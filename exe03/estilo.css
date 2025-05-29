@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+@font-face {
+    font-family:'Garet' ;
+    src: url('fontes/Garet-Book.ttf') format('truetype');
+}
+
+:root{
+    --cor01:#2d2d2d8c;
+    --cor02:#454545;
+    --cor03:#000000;
+
+    --corgradiente01: #00aaff;
+    --corgradiente02:#004466;
+
+    --fonteh1:'Garet';
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    
+    
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--corgradiente01), var(--corgradiente02));
+    padding: 20px;
+    text-align: center;
+    
+    
+    
+    
+    
+}
+
+header >h1{
+    padding: 20px 30px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.575);
+    font-family: var(--fonteh1);
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+
+nav{
+    background-color: var(--corgradiente02);
+    padding: 8px;
+    
+}
+
+nav a{
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+   
+
+    
+}
+
+nav > a:hover{
+    background-color: var(--corgradiente01);
+    color: rgb(64, 64, 197);
+    transition-duration: 0.9s;
+    text-decoration: underline;
+    
+    
+}
+
+
+    main{
+        max-width: 1000px;
+        width: 100%;
+        margin: auto;
+        padding-top: 15px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+       
+        background-color: gray;
+        margin-bottom: 15px;
+        
+        
+        
+        
+    }
+
+    main img{
+        width: 100%;
+        margin: 20px auto;
+        display: block;
+        
+        
+        
+    }
+
+    main h2{
+        margin:10px;
+        color: var(--corgradiente02);
+        background-image: linear-gradient(to right, var(--cor01), transparent);
+        text-indent: 0.9em;
+        
+        
+    }
+
+    main p{
+        text-indent: 30px;
+        line-height: 1.3em;
+        text-align: justify;
+        font-size: 1em;
+        padding:10px;
+        margin: 20px auto;
+
+    }
+
+    strong{
+        background-color: var(--cor01);
+        padding:2px;
+    }
+
+    article a{
+        color: var(--corgradiente02);
+        font-weight: bold;
+        text-decoration: none;
+        
+    }
+
+    article a:hover{
+        text-decoration: underline;
+    }
+

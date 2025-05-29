@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagem responsiva</title>
+    <style>
+        main{
+            width: 850px;
+        }
+        
+        img{
+            max-width: 100%;
+            height: auto;
+            
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Gato</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sint impedit facilis quod velit? Et aspernatur sit laborum odit inventore autem adipisci nemo totam in, cumque quae voluptates? Minima, omnis.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, dolorum!
+            </p>
+        </section>
+        
+        <picture>
+            <source media="(max-width:600px)" srcset="../imagens/gato600.jpg">
+            <img src="imagens/gato1000.jpg" alt="gato laranja sentado olhando para camera">
+        </picture>
+    </main>
+</body>
+</html>

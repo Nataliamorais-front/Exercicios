@@ -1,0 +1,29 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: rgb(43, 212, 85);
+}
+
+img{
+    width: 400px;
+      
+    
+}
+
+main{
+    padding:20px;
+    
+    
+    
+}
+
+.destaque{
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+    border: 0 solid black;
+    box-shadow: 3px 2px 1px black;
+}
+

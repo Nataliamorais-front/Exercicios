@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'frozen';
+    
+    src: url('fontes/FROZEN\ ICE-Hollow.otf') 
+}
+
+@font-face {
+    font-family: 'Ananda' ;
+    src: url('fontes/Ananda\ Black\ Personal\ Use.ttf' );
+}
+
+ *{
+    padding:0px;
+    margin:0px;
+ }
+
+ :root{
+    --corprimaria:#246E91;
+    --corsegundaria:#6F6F70;
+    --corterciaria:#4c576ec7;
+    --corquarta:#0A0A0A;
+
+    
+ }
+
+ body{
+    background-color: var(--corsegundaria);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ header{
+    background-color: var(--corprimaria);
+    color:white;
+    text-align: center;
+    
+    
+    
+    
+ }
+header h1{
+    font-family: 'frozen', sans-serif, verdana;
+    font-weight: normal;
+    text-align: center;
+    margin-top:0;
+    padding-top: 5px;
+
+
+
+}
+
+nav{
+ margin-top: 5px;
+ 
+    
+   
+}
+ 
+
+ nav  a{
+    background-color: var(--corsegundaria);
+    display: inline-block;
+    width: 100px;
+    border-radius: 5px 5px 0px 0px;
+    padding: 6px;
+    margin-bottom: 0;
+     
+   
+    
+    
+    
+    
+}
+
+a:hover{
+    color: violet;
+    background-color: white;
+    
+    
+}
+
+
+ main{
+    background-color: var(--corquarta);
+    color:white;
+    min-width: 400px;
+    max-width: 1000px;
+    margin:auto;
+    padding: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.596);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+ }
+
+ main h2{
+    font-family: 'Ananda';
+    font-weight: bold;
+    
+    
+ }
+
+ article{
+    text-align: justify;
+ }
+
+ article p{
+    margin: 10px;
+ }
+
+ img{
+    width: 100%;
+    border-radius: 10px;
+    display:block;
+    margin-top: 15px;
+ }
+
+ aside{
+    background-color: var(--corterciaria);
+    padding:30px;
+    border-radius: 15px;
+    margin: 15px;
+    
+    
+    
+ }
+
+ aside h2{
+    text-align: center;
+    font-family: 'frozen';
+    font-weight: normal;
+ }
+
+ aside a{
+    color:white;
+    text-decoration: none;
+ }
+
+ aside li{
+    list-style-type: square;
+    margin-bottom: 8px;
+  
+ }
+
+ aside a:hover{
+    color:yellow;
+    
+ }
+
+ footer{
+    background-color: white;
+    color: var(--corsegundaria);
+    text-align: center;
+    padding:4px;
+    font-size: 0.9em;
+    border-top: 2px solid var(--corprimaria);
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.493);
+ }
+
+ 
+
+ 
+
+
+
+
